@@ -46,6 +46,7 @@
 
 .buttons_line {
     justify-content: center;
+    align-items: center;
     display: flex;
     margin-top : 5px;
     align-items: center; /* Center buttons vertically if needed */
