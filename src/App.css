@@ -1,0 +1,140 @@
+.photo {
+    display: block; 
+    width: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0.5px solid black; 
+    outline: 0.5px solid black; 
+    box-sizing: border-box;
+    padding-bottom : 0px;
+}
+
+.body {
+    padding-top: 0;
+    margin: 0;
+    padding: 0; 
+    height: 400px;
+    text-align: center;
+    background-color: #F5F5F5;
+    box-sizing: border-box; 
+}
+
+.nameTitle {
+    color: #2B283A;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.jobTitle {
+    color: #F47D27;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.etc {
+    color: #4A4E74;
+    font-weight: normal;
+    font-size: 12.8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttons_line {
+    justify-content: center;
+    display: flex;
+    margin-top : 5px;
+    align-items: center; /* Center buttons vertically if needed */
+    gap: 10px; /* Optional: Add space between the buttons */
+    padding: 10px; /* Optional: Add padding around the container */
+}
+
+.email_button {
+    background-color: white;
+    display: flex;
+    align-items: center; /* Center contents vertically */
+    justify-content: center; /* Center contents horizontally */
+    width: 115px;
+    height: 30px;
+    border: 0.5px solid #D1D5DB; 
+    outline: 0.5px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 0 8px; /* Optional: Add some padding for spacing */
+}
+
+.email_ico, .linkedin_ico {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.linkedin_button {
+    color : white;
+    background-color: #297FE5;
+    display: flex;
+    align-items: center; /* Center contents vertically */
+    justify-content: center; /* Center contents horizontally */
+    width: 115px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 8px; /* Optional: Add some padding for spacing */
+}
+
+.button_string {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif; /* Ensure font consistency */
+    text-decoration: none; /* Remove underline from text if any */
+}
+
+.email_button:hover {
+    background-color: #F5F5F5;
+    cursor: pointer; 
+}
+
+.linkedin_button:hover {
+    background-color: #0B62C9;
+    cursor: pointer; 
+}
+
+.text_header {
+    text-align: left;
+    font-size: 16px;
+    color: #2B283A;
+    font-weight: bold;
+    margin-left: 22px;
+    margin-bottom: 0px;
+}
+
+.text {
+    text-align: left;
+    color: #4A4E74;
+    font-size: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 5px;
+    margin-bottom: 0px; 
+}
+
+.footer_box {
+    margin-top: 0px;
+    display: flex;
+    background-color: #D5D4D8;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.xing_ico, .instagram_ico {
+    margin: 0px;
+    width: 26px;
+}
+
+.xing_ico:hover, .instagram_icon:hover, .github_ico:hover {
+    cursor: pointer;
+}
