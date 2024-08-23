@@ -3,11 +3,7 @@ import linkedin_ico from "../assets/linkedin.png";
 
 export default function Body() {
   const openEmailLink = () => {
-    window.open(
-      "mailto:shamil.khannanov@yahoo.com",
-      "_blank",
-      "noopener,noreferrer"
-    );
+    window.open("mailto:shamil.khannanov@yahoo.com");
   };
 
   const openLinkedInLink = () => {
