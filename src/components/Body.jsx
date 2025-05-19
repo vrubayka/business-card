@@ -17,8 +17,8 @@ export default function Body() {
   return (
     <div className="body">
       <h2 className="nameTitle">Shamil Khannanov</h2>
-      <h3 className="jobTitle">Java Developer</h3>
-      <h4 className="etc">Akkodis Germany DCE</h4>
+      <h3 className="jobTitle">Software Developer</h3>
+      <h4 className="etc">Check24 GmbH</h4>
       <div className="buttons_line">
         <div className="email_button" onClick={openEmailLink}>
           <img src={email_ico} className="email_ico" alt="Email Icon" />
