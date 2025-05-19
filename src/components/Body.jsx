@@ -35,7 +35,7 @@ export default function Body() {
       </div>
       <h3 className="text_header">About</h3>
       <div className="text">
-        I am a Java developer with a particular interest in backend and database
+        I am primarily a PHP developer with a particular interest in backend and database
         systems. I try to keep up with modern technologies and best practices,
         and am always looking for new things to learn.
       </div>
